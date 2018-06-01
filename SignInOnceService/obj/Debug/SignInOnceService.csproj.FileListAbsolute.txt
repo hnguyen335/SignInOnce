@@ -1,0 +1,9 @@
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\bin\Debug\App.config
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\bin\Debug\SignInOnceService.exe.config
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\bin\Debug\SignInOnceService.exe
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\bin\Debug\SignInOnceService.pdb
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\bin\Debug\SignInOnce.dll
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\bin\Debug\SignInOnce.pdb
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\obj\Debug\SignInOnceService.csprojResolveAssemblyReference.cache
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\obj\Debug\SignInOnceService.exe
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnceService\obj\Debug\SignInOnceService.pdb

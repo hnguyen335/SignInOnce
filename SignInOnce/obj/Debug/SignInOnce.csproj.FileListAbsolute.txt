@@ -1,0 +1,8 @@
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\bin\SignInOnce.dll
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\bin\SignInOnce.pdb
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\bin\Microsoft.Graph.Core.dll
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\bin\Microsoft.OneDrive.Sdk.dll
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\bin\Newtonsoft.Json.dll
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\bin\Newtonsoft.Json.xml
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\obj\Debug\SignInOnce.dll
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\obj\Debug\SignInOnce.pdb

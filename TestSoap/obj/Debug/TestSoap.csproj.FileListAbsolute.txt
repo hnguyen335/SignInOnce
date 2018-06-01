@@ -1,0 +1,8 @@
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\TestSoap\bin\Debug\TestSoap.exe.config
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\TestSoap\bin\Debug\TestSoap.exe
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\TestSoap\bin\Debug\TestSoap.pdb
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\TestSoap\bin\Debug\SignInOnce.dll
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\TestSoap\bin\Debug\SignInOnce.pdb
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\TestSoap\obj\Debug\TestSoap.csprojResolveAssemblyReference.cache
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\TestSoap\obj\Debug\TestSoap.exe
+C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\TestSoap\obj\Debug\TestSoap.pdb
