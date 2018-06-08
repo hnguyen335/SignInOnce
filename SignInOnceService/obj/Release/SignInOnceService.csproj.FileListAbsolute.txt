@@ -1,0 +1,12 @@
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\bin\Release\App.config
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\bin\Release\SignInOnceService.exe.config
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\bin\Release\SignInOnceService.exe
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\bin\Release\SignInOnceService.pdb
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\bin\Release\SignInOnce.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\bin\Release\SignInOnce.pdb
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\bin\Release\SignInOnce.dll.config
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\obj\Release\SignInOnceService.csprojAssemblyReference.cache
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\obj\Release\SignInOnceService.csproj.CoreCompileInputs.cache
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\obj\Release\SignInOnceService.csproj.CopyComplete
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\obj\Release\SignInOnceService.exe
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnceService\obj\Release\SignInOnceService.pdb

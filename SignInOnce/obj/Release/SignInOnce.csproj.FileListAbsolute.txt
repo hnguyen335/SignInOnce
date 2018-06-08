@@ -1,0 +1,11 @@
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\SignInOnce.dll.config
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\SignInOnce.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\SignInOnce.pdb
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\Microsoft.Graph.Core.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\Microsoft.OneDrive.Sdk.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\Newtonsoft.Json.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\Newtonsoft.Json.xml
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Release\SignInOnce.csproj.CoreCompileInputs.cache
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Release\SignInOnce.csproj.CopyComplete
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Release\SignInOnce.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Release\SignInOnce.pdb

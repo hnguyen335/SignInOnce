@@ -6,3 +6,32 @@ C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\bin\
 C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\bin\Newtonsoft.Json.xml
 C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\obj\Debug\SignInOnce.dll
 C:\Users\nguyen\documents\visual studio 2012\Projects\SignInOnce\SignInOnce\obj\Debug\SignInOnce.pdb
+C:\work\SignInOnce\SignInOnce\bin\SignInOnce.dll
+C:\work\SignInOnce\SignInOnce\bin\SignInOnce.pdb
+C:\work\SignInOnce\SignInOnce\bin\Microsoft.Graph.Core.dll
+C:\work\SignInOnce\SignInOnce\bin\Microsoft.OneDrive.Sdk.dll
+C:\work\SignInOnce\SignInOnce\bin\Newtonsoft.Json.dll
+C:\work\SignInOnce\SignInOnce\bin\Newtonsoft.Json.xml
+C:\work\SignInOnce\SignInOnce\obj\Debug\SignInOnce.dll
+C:\work\SignInOnce\SignInOnce\obj\Debug\SignInOnce.pdb
+C:\work\SignInOnce\SignInOnce\bin\log4net.dll
+C:\work\SignInOnce\SignInOnce\bin\log4net.pdb
+C:\work\SignInOnce\SignInOnce\bin\log4net.xml
+C:\work\SignInOnce\SignInOnce\bin\SignInOnce.dll.config
+C:\work\SignInOnce\SignInOnce\obj\Debug\SignInOnce.csproj.CoreCompileInputs.cache
+C:\work\SignInOnce\SignInOnce\obj\Debug\SignInOnce.csproj.CopyComplete
+C:\work\SignInOnce\SignInOnce\obj\Debug\SignInOnce.csprojAssemblyReference.cache
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\SignInOnce.dll.config
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\SignInOnce.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\SignInOnce.pdb
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\Microsoft.Graph.Core.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\Microsoft.OneDrive.Sdk.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\Newtonsoft.Json.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\log4net.pdb
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\log4net.xml
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\bin\Newtonsoft.Json.xml
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Debug\SignInOnce.csprojAssemblyReference.cache
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Debug\SignInOnce.csproj.CoreCompileInputs.cache
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Debug\SignInOnce.csproj.CopyComplete
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Debug\SignInOnce.dll
+C:\04_WORKING\01_Research\01_Tutorial\03_Service\SOAP\SignInOnce-master\SignInOnce\obj\Debug\SignInOnce.pdb

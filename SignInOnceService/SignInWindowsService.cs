@@ -19,7 +19,8 @@ namespace SignInOnceService
 
         public SignInWindowsService()
         {
-            ServiceName = "SignInService";
+            //ServiceName = "SignInService";
+            ServiceName = "Service1";
         }
         public static void Main()
         {
@@ -33,13 +34,14 @@ namespace SignInOnceService
             {
                 serviceHost.Close();
             }
+            serviceHost = new ServiceHost(typeof(Service1));
 
             // Create a ServiceHost for the SignInService type and 
-            // provide the base address.
-            serviceHost = new ServiceHost(typeof(SignInService), new Uri("http://localhost:8000"));
-            serviceHost.AddServiceEndpoint(typeof(ISignInService), new BasicHttpBinding(), "Soap");
-            ServiceEndpoint endpoint = serviceHost.AddServiceEndpoint(typeof(ISignInService), new WebHttpBinding(), "Web");            
-            endpoint.Behaviors.Add(new WebHttpBehavior());           
+            // provide the base address.            
+            //serviceHost = new ServiceHost(typeof(SignInService), new Uri("http://localhost/SignInOnceService/"));
+            //serviceHost.AddServiceEndpoint(typeof(ISignInService), new BasicHttpBinding(), "Soap");
+            //ServiceEndpoint endpoint = serviceHost.AddServiceEndpoint(typeof(ISignInService), new WebHttpBinding(), "Web");
+            //endpoint.Behaviors.Add(new WebHttpBehavior());           
             
             // Open the ServiceHostBase to create listeners and start 
             // listening for messages.
