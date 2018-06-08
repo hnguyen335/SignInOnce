@@ -6,71 +6,161 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 using System.ServiceModel;
 using System.Text;
+using System.Reflection;
 
 namespace SignInOnce
-{
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "SignInService" in code, svc and config file together.
-    // NOTE: In order to launch WCF Test Client for testing this service, please select SignInService.svc or SignInService.svc.cs at the Solution Explorer and start debugging.
+{   
     public class SignInService : ISignInService
-    {       
-        public SignInStatus SignIn(string Connector, string Login, string Password)
-        
-        {               
-            SignInStatus status = new SignInStatus();
-            status.Status = "-1";
-            status.AccessToken = "";
-
-            if (Connector != null && Login != null && Password != null)
+    {
+        // Create a logger for use in this class
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        private static readonly bool isDebugEnabled = log.IsDebugEnabled;
+        public BaseStatus showMe()
+        {
+            if (isDebugEnabled)
             {
-                if (Connector.Equals("GoogleDrive") && Login.Equals("user@gmail.com") && Password.Equals("123456"))
-                {
-                    status.Status = "Ok";
-                    status.AccessToken = "12345678990abcdefgh";
-                }
+                log.Debug(MethodBase.GetCurrentMethod().Name + " Start");
             }
+            SignInStatus stat = new SignInStatus();
+            stat.Status = "Ok";
+            stat.AccessToken = "1234";
+            //if (log.IsDebugEnabled) log.Debug("This is a debug message");
+            if (log.IsInfoEnabled) log.Debug("showMe() is called");
 
-            // Serialize the results as JSON
-           // DataContractJsonSerializer serializer = new DataContractJsonSerializer(status.GetType());
-          //  MemoryStream memoryStream = new MemoryStream();
-          //  serializer.WriteObject(memoryStream, status);
+            if (isDebugEnabled)
+            {
+                log.Debug(MethodBase.GetCurrentMethod().Name + " End");
+            }
+            return stat;
+        }
 
-            // Return the results serialized as JSON
-           // string json = Encoding.Default.GetString(memoryStream.ToArray());
-            return status;
+        public BaseStatus showMe2()
+        {            
+            BaseStatus stat = new BaseStatus();
+            stat.Status = "Ok";
+            return stat;
+        }
+
+        public Credential showMe3(Credential str)
+        {
+            str.id += " rocks";
+            return str;
+        }
+
+
+        public BaseStatus SignIn(SignInParams param)
+        {
+            if (isDebugEnabled)
+            {
+                log.Debug(MethodBase.GetCurrentMethod().Name + " Start");
+            }
             
-        }
-        /*
-        public FolderStatus GetFolders(string AccessToken)
-        {
-            FolderStatus status = new FolderStatus();
-            status.Folder = new string[2];
+            BaseStatus status = new BaseStatus();
             status.Status = "-1";
-
-            if (AccessToken != null)
+           
+            if (param.Connector != null && param.Login != null && param.Password != null)
             {
-                if (AccessToken.Equals("1234"))
+                if (param.Connector.Equals("GoogleDrive") && param.Login.Equals("user@gmail.com") && param.Password.Equals("123456"))
                 {
-                    status.Status = "Ok";
-                    status.Folder[0] = "folder1";
-                    status.Folder[1] = "folder2";
+                    SignInStatus sStatus = new SignInStatus();
+                    sStatus.Status = "Ok";
+                    sStatus.AccessToken = "12345678990abcdefgh";
+
+                    if (isDebugEnabled)
+                    {
+                        log.Info(Resources.Language.SignInSuccess);
+                        log.Debug(MethodBase.GetCurrentMethod().Name + " End");
+                    }
+                    return sStatus;
                 }
+                else
+                {
+                    if (isDebugEnabled)
+                    {
+                        log.Error(Resources.Language.SignInFailure);
+                    }
+                }
+            }
+            if (isDebugEnabled)
+            {
+                log.Debug(MethodBase.GetCurrentMethod().Name + " End");
             }
             return status;
         }
 
-        public string UploadFile(string AccessToken, string FolderName, string Filenames, Boolean Override)
+        public BaseStatus GetFolders(GetFolderParams param)
         {
-            string status = "-1";
-
-            if (AccessToken != null)
+            if (isDebugEnabled)
             {
-                if (AccessToken.Equals("1234"))
+                log.Debug(MethodBase.GetCurrentMethod().Name + " Start");
+            }
+            BaseStatus stat = new BaseStatus();
+            stat.Status = "-1";
+
+            if (param.AccessToken != null)
+            {
+                if (param.AccessToken.Equals("1234"))
                 {
-                    status = "Ok";                   
+                    GetFolderStatus fStatus = new GetFolderStatus();
+                    fStatus.Folder =  new string[2];
+                    fStatus.Status = "Ok";
+                    fStatus.Folder[0] = "folder1";
+                    fStatus.Folder[1] = "folder2";
+                    if (isDebugEnabled)
+                    {
+                        log.Info(Resources.Language.GetFolderSuccess);
+                        log.Debug(MethodBase.GetCurrentMethod().Name + " End");
+                    }
+                    return fStatus;
+                }
+                else
+                {
+                    if (isDebugEnabled)
+                    {
+                        log.Error(Resources.Language.GetFolderFailure);
+                    }
                 }
             }
-            return status;
-        }*/
+            if (isDebugEnabled)
+            {
+                log.Debug(MethodBase.GetCurrentMethod().Name + " End");
+            }
+            return stat;
+        }
+        
+        public BaseStatus UploadFile(UploadFileParams param)
+        {
+            if (isDebugEnabled)
+            {
+                log.Debug(MethodBase.GetCurrentMethod().Name + " Start");
+            }
+            BaseStatus uploadStatus = new BaseStatus();
+            uploadStatus.Status = "-1";
+
+            if (param.AccessToken != null)
+            {
+                if (param.AccessToken.Equals("1234"))
+                {
+                    uploadStatus.Status = "Ok";
+                    if (isDebugEnabled)
+                    {
+                        log.Info(Resources.Language.UploadFileSuccess);
+                    }
+                }
+                else
+                {
+                    if (isDebugEnabled)
+                    {
+                        log.Error(Resources.Language.UploadFileFailure);
+                    }
+                }
+            }
+            if (isDebugEnabled)
+            {
+                log.Debug(MethodBase.GetCurrentMethod().Name + " End");
+            }
+            return uploadStatus;
+        }
 
         public string EchoWithGet(string s)
         {
